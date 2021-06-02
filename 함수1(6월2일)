@@ -1,0 +1,10 @@
+a = 222
+def func1():
+    print(a)
+    
+def func2():
+    a = 111
+    print(a)
+    
+func1()
+func2()
